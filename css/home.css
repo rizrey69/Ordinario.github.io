@@ -1,0 +1,59 @@
+#grad1 {
+  height: 600px;
+  background-image: linear-gradient(180deg, rgba(0,33,78,1) 0%, rgba(0,22,53,1) 0%, rgba(0,15,35,1) 67%, rgba(0,0,0,1) 100%);
+}
+body {
+  font-family: "futura", sans-serif;
+}
+h1, p{
+	color: white;
+  text-align: center;
+}
+.button {
+  font-family: "futura", sans-serif;
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 16px;
+}
+p1{
+  color: rgba(0,15,35,1);
+  font-weight: bold;
+}
+#button1{
+  background-image: url(../images/interactiveblur.jpg);
+  background-size: cover;
+}
+#button2{
+  background-image: url(../images/modablur.jpg);
+  background-size: cover;
+}
+.boton{
+  display: flex;
+}
+.boton{
+  justify-content: center;
+}
+.boton{
+  margin-right: 20px;
+}
+#icons{
+  text-align: center;
+  bottom: 3px;
+  width: 100%;
+  position:absolute;
+}
+#footerimage{
+  text-align: center;
+  bottom: 20px;
+  width: 100%;
+  position:absolute;
+}

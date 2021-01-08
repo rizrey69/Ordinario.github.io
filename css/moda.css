@@ -1,0 +1,66 @@
+#grad2 {
+    height: 600px;
+    background-image: linear-gradient(180deg, rgba(0,33,78,1) 0%, rgba(0,22,53,1) 0%, rgba(0,15,35,1) 67%, rgba(0,0,0,1) 100%);
+}
+#b1, #b2, #b3, #button1, #button2, h2, p{
+  font-family: "futura", sans-serif;
+}
+#homeimage{
+  background-image: url(../images/modablue.png);
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-size: 100% 100%;
+}
+h1{
+	color: white;
+  text-align: center;
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+p{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 16px;
+}
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 16px;
+}
+#button1, #button2{
+  background-color: #00214E;
+  opacity: 0.7;
+  background-size: cover;
+  color: white;
+}
+.boton{
+  display: flex;
+}
+.boton{
+  justify-content: center;
+}
+.boton{
+  margin-right: 20px;
+}
